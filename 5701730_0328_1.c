@@ -54,13 +54,14 @@ main() {
 
 	polynomial c;
 	polynomial g;
-
+	//첫 번째 문제 계산
 	print_poly(a);
 	print_poly(b);
 	c = poly_mult(a, b);
 	printf("--------------------------------\n");
 	print_poly(c);
 	printf("\n");
+	//두 번째 문제 계산
 	print_poly(d);
 	print_poly(f);
 	g = poly_mult_2(d,f);
